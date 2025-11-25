@@ -31,9 +31,9 @@ class MainActivity : ComponentActivity() {
         val vibrator = vibratorManager.defaultVibrator
 
         if (vibrator.hasVibrator()) {
-            val dot = 200L //100L
-            val dash = 500L //300L
-            val wait = 200L //150L
+            val dot = 120L
+            val dash = 360L
+            val wait = 200L
 
             /*
                 val vibrationPattern = when (f % 12) {
