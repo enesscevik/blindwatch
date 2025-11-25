@@ -33,12 +33,13 @@ The application utilizes the modern **`VibratorManager`** over older `Vibrator` 
 | Digit | Morse-like Code | Vibration Pattern |
 | :---: | :-------: | :---: |
 | **1** | .     | Dot |
-| **1** | .     | Dot, Dot |
+| **2** | ..    | Dot, Dot |
 | **5** | ..... | Five Dots |
 | **6** | -     | Dash |
+| **7** | -     | Dash, Dash |
 | **0** | ----- | Five Dashes |
-| **10** | .-.   | Five Dashes |
-| **11** | -.-   | Five Dashes |
+| **10** | .-.   | Dot, Dash, Dot |
+| **11** | -.-   | Dash, Dot, Dash |
 
 **Timing (Optimal Suggested Durations):**
 * **Dot:** 60/100 ms Vibration
