@@ -32,7 +32,6 @@
             android:noHistory="true"
             android:theme="@style/Theme.Transparent"
             android:excludeFromRecents="true"
-            android:launchMode="singleInstance"
             android:taskAffinity=""
             >
             <intent-filter>
